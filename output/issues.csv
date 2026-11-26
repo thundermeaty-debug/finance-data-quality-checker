@@ -1,0 +1,60 @@
+csv_row,booking_id,hotel_id,check,severity,message
+88,B00452,H01,Amount outlier,ERROR,"Amount 250,000.00 EUR exceeds limit of 100,000 EUR"
+255,B00435,H01,Amount outlier,ERROR,"Amount 250,000.00 EUR exceeds limit of 100,000 EUR"
+491,B00277,H04,Amount outlier,ERROR,"Amount 250,000.00 EUR exceeds limit of 100,000 EUR"
+18,B00378,H03,Cost center / hotel mismatch,ERROR,"Cost center 5010 belongs to H05, not H03"
+266,B00230,H03,Cost center / hotel mismatch,ERROR,"Cost center 2010 belongs to H02, not H03"
+292,B00100,H05,Cost center / hotel mismatch,ERROR,"Cost center 1010 belongs to H01, not H05"
+322,B00200,H01,Cost center / hotel mismatch,ERROR,"Cost center 2020 belongs to H02, not H01"
+383,B00037,H01,Cost center / hotel mismatch,ERROR,"Cost center 5010 belongs to H05, not H01"
+495,B00238,H01,Cost center / hotel mismatch,ERROR,"Cost center 4040 belongs to H04, not H01"
+129,B90004,H01,Duplicate booking,ERROR,"Same date, hotel, cost center, account and amount already booked"
+171,B00083,H03,Duplicate booking,ERROR,"Same date, hotel, cost center, account and amount already booked"
+196,B90007,H03,Duplicate booking,ERROR,"Same date, hotel, cost center, account and amount already booked"
+274,B90006,H05,Duplicate booking,ERROR,"Same date, hotel, cost center, account and amount already booked"
+301,B90005,H04,Duplicate booking,ERROR,"Same date, hotel, cost center, account and amount already booked"
+392,B90001,H03,Duplicate booking,ERROR,"Same date, hotel, cost center, account and amount already booked"
+449,B00044,H05,Duplicate booking,ERROR,"Same date, hotel, cost center, account and amount already booked"
+473,B90002,H05,Duplicate booking,ERROR,"Same date, hotel, cost center, account and amount already booked"
+65,B00284,H04,Future date,ERROR,Booking date is in the future
+193,B00393,H03,Future date,ERROR,Booking date is in the future
+439,B00197,H01,Future date,ERROR,Booking date is in the future
+36,B00332,H01,Invalid date,ERROR,Cannot read date '' (expected YYYY-MM-DD)
+47,B00315,H02,Invalid date,ERROR,Cannot read date 'unknown' (expected YYYY-MM-DD)
+425,B00357,H02,Invalid date,ERROR,Cannot read date '2026-13-45' (expected YYYY-MM-DD)
+490,B00255,H02,Invalid date,ERROR,Cannot read date '31.02.2026' (expected YYYY-MM-DD)
+136,B00082,H04,Missing cost center,ERROR,Cost center is empty
+206,B00348,H01,Missing cost center,ERROR,Cost center is empty
+291,B00033,H05,Missing cost center,ERROR,Cost center is empty
+328,B00300,H03,Missing cost center,ERROR,Cost center is empty
+351,B00328,H02,Missing cost center,ERROR,Cost center is empty
+453,B00050,H02,Missing cost center,ERROR,Cost center is empty
+176,B00395,H04,Missing or non-numeric amount,ERROR,Amount '' is not a number
+180,B00162,H03,Missing or non-numeric amount,ERROR,Amount '' is not a number
+231,B00343,H01,Missing or non-numeric amount,ERROR,Amount 'abc' is not a number
+262,B00386,H05,Missing or non-numeric amount,ERROR,Amount '' is not a number
+325,B00185,H02,Missing or non-numeric amount,ERROR,Amount 'n/a' is not a number
+17,B00329,H05,Unknown cost center,ERROR,Cost center 9999 not in master data
+63,B00086,H01,Unknown cost center,ERROR,Cost center 9999 not in master data
+86,B00352,H05,Unknown cost center,ERROR,Cost center 9999 not in master data
+103,B00446,H02,Unknown cost center,ERROR,Cost center 9999 not in master data
+278,B00159,H04,Unknown cost center,ERROR,Cost center 9999 not in master data
+378,B00241,H03,Unknown cost center,ERROR,Cost center 9999 not in master data
+118,B00341,H05,Decimal comma,WARNING,Decimal comma converted to decimal point
+155,B00062,H04,Decimal comma,WARNING,Decimal comma converted to decimal point
+269,B00101,H02,Decimal comma,WARNING,Decimal comma converted to decimal point
+339,B00375,H03,Decimal comma,WARNING,Decimal comma converted to decimal point
+417,B00267,H05,Decimal comma,WARNING,Decimal comma converted to decimal point
+35,B00450,H01,Hotel name inconsistent,WARNING,'HOTEL HAMBURG' replaced by master name 'Hotel Berlin'
+44,B00224,H04,Hotel name inconsistent,WARNING,'hotel berlin' replaced by master name 'Hotel Muenchen'
+265,B00365,H01,Hotel name inconsistent,WARNING,'Hotel Köln' replaced by master name 'Hotel Berlin'
+272,B00228,H02,Hotel name inconsistent,WARNING,'hotel berlin' replaced by master name 'Hotel Hamburg'
+275,B00155,H04,Hotel name inconsistent,WARNING,'HOTEL HAMBURG' replaced by master name 'Hotel Muenchen'
+316,B00220,H03,Hotel name inconsistent,WARNING,'Hotl Dresden' replaced by master name 'Hotel Koeln'
+321,B00310,H05,Hotel name inconsistent,WARNING,'HOTEL HAMBURG' replaced by master name 'Hotel Dresden'
+360,B00221,H02,Hotel name inconsistent,WARNING,'HOTEL HAMBURG' replaced by master name 'Hotel Hamburg'
+374,B00011,H05,Hotel name inconsistent,WARNING,'Hotel Köln' replaced by master name 'Hotel Dresden'
+483,B00414,H05,Hotel name inconsistent,WARNING,'Hotel Muenchen' replaced by master name 'Hotel Dresden'
+101,B00111,H01,Zero amount,WARNING,"Amount is 0, please review"
+302,B00417,H02,Zero amount,WARNING,"Amount is 0, please review"
+337,B00486,H04,Zero amount,WARNING,"Amount is 0, please review"
