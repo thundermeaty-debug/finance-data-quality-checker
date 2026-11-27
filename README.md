@@ -39,6 +39,9 @@ python validate_bookings.py
 python sql_analysis.py
 ```
 
+## Dashboard
+![Dashboard](dashboard.png)
+
 ## Example result
 508 raw rows -> 41 rows with errors -> 467 clean rows; 18 warnings;
 25 hotel/month combinations did not match the control totals.
